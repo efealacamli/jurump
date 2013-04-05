@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="120" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="block" tilewidth="32" tileheight="32">
+  <image source="../workspace/Jurum/data/block.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="bonus" tilewidth="32" tileheight="32">
+  <image source="../workspace/Jurum/data/bonus.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="gate" tilewidth="32" tileheight="32">
+  <image source="../workspace/Jurum/data/gate.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="alien" tilewidth="32" tileheight="32">
+  <image source="../workspace/Jurum/data/alien.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="box" tilewidth="32" tileheight="32">
+  <image source="../workspace/Jurum/data/box.png" width="32" height="32"/>
+ </tileset>
+ <layer name="blocks" width="120" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QMQ6AQBDDwOP/n6amN0YKHmnrZHNOkiRJkiRJkiRPF3B/Qu1E7G7lfO3Nrci9rM7mNgs/UFlWZ3ObhR+oLKuzuc3CD1SW1dncZuEHKsvqbG6z8AOVZXU2t1n4gcqyOtM5N8wMRb2AJQAA
+  </data>
+ </layer>
+ <layer name="other" width="120" height="20" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TOQqAQBREQXG5/5VNxVkUnWSaKjD5wQT9cFlIs10+8uibTd9s+mbTN5u+2fTNsDbu+mbTt9T6F2Y0U9+n3ZO6jPKm75/dZtn8aNz3gW9R6u3b2/FLF+q71W737e0NAADM5AR+UTY7gCUAAA==
+  </data>
+ </layer>
+</map>

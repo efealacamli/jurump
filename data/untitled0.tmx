@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="block" tilewidth="32" tileheight="32">
+  <image source="block.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="8" name="bonus" tilewidth="32" tileheight="32">
+  <image source="bonus.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="9" name="gate" tilewidth="32" tileheight="32">
+  <image source="gate.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="10" name="alien" tilewidth="32" tileheight="32">
+  <image source="alien.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="11" name="box" tilewidth="32" tileheight="32">
+  <image source="box.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="12" name="block221" tilewidth="32" tileheight="32">
+  <image source="block221.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="13" name="thumbsup" tilewidth="32" tileheight="32">
+  <image source="thumbsup.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="14" name="block_floor" tilewidth="32" tileheight="32">
+  <image source="block_floor.png" width="32" height="32"/>
+ </tileset>
+ <layer name="blocks" width="200" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2aSw7DIAwF6X/T9v7HbbqogtJAJeOHDJ2RLIVFwPLDYEJSAgCACBwWOznZubPvAGqOi12d7NLZdwA1n/y4pXWeW5/JD5gN9g+AMuQHQBnqK4Ay7B8AAAAAvtydDf6X1rvmiPfLo+THQ9h3VKzzbTvPPP+RqI3Tepb1PL96xU55PlfootI6gtW0yb8X/mpvdbD2Yx0nwvfPPV8sPijzQ6GLp7/RzEsbpcbKcfL+LOtgvr54x05x/6HQRbUWRmiTH999WedfxNj1zo/ZzGv/naG+sug8cn5QX/XTZqb9o/X9Uc4fXkZ9FUMHxTiR66sRzx+z2Tt+z8xa6iuPfqzjtMyfPZ8t8WvJj1Lsouhba78ASjrLd4A+AAA=
+  </data>
+ </layer>
+ <layer name="boxes" width="200" height="20" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAao3nfFeAPgAA
+  </data>
+ </layer>
+ <layer name="aliens" width="200" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YuwqAMBBFwZQ+/v9/bQQLuWCzbpQZSBe2CJwUOwbMZSm+/8R6HuBOH5DpAzJ9QKYPyPQBmT4g08e3Vez8uegDspn78DfSbeY+3rQVz9+L53eqfrtO+gAAAAAAAP7qAO7rvSWAPgAA
+  </data>
+ </layer>
+ <layer name="bonuses" width="200" height="20" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAao3nfFeAPgAA
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://stdhomes.ieu.edu.tr/efealacamli/jurump/"
+  href="jurump.jnlp">
+  <information>
+    <title>Jurump</title>
+    <vendor>Efe Alacamli-Ozan Yildiz</vendor>
+    <homepage href="efealacamli.blogspot.com,ozanyildiz.tumblr.com"/>
+    <description>Jurump</description>
+    <description kind="short">Jurump</description>
+    <icon href="icon.gif"/>
+  </information> 
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+" max-heap-size="128m"/>
+    <jar href="jurump.jar"/>  
+    <extension href="http://slick.cokeandcode.com/demos/slick.jnlp"/>
+  </resources>  
+  <application-desc main-class="Jurump"/>
+</jnlp>

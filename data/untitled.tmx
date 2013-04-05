@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="120" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="block" tilewidth="32" tileheight="32">
+  <image source="block.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="bonus" tilewidth="32" tileheight="32">
+  <image source="bonus.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="gate" tilewidth="32" tileheight="32">
+  <image source="gate.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="alien" tilewidth="32" tileheight="32">
+  <image source="alien.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="box" tilewidth="32" tileheight="32">
+  <image source="box.png" width="32" height="32"/>
+ </tileset>
+ <layer name="blocks" width="120" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2VywmAQBTEtP+mrWFhjBAT2PP84O11xSn3iy++p33dtK+b9nXTvm7a1037umlfN+0bEfFvuvdnrHqi/l/Dvm92teyL8kx2Y8iw0qI8k90YMqy0KM9kN4YMKy3KM9mNIcNKi/JMdmPIsNKiPJPdGDKstCjPa50HVxMJmIAlAAA=
+  </data>
+ </layer>
+ <layer name="boxes" width="120" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAHgMMYCaUYAlAAA=
+  </data>
+ </layer>
+ <layer name="aliens" width="120" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TOQqAQBREQXG5/5VNxVkUnWSaKjD5wQT9cFlIs10+8uibTd9s+mbTN5u+2fTNsDbu+mbTt9T6F2Y0U9+n3ZO6jPKm75/dZtn8aNz3gW9R6u3b2/FLF+q71W737e0NAADM5AR+UTY7gCUAAA==
+  </data>
+ </layer>
+ <layer name="bonuses" width="120" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TgQkAMAgEMen+QzuCYEFbSCaQe4wAAACAv53tA+ARfmFH1d0uPTfdNAcAAAAmJf4ZYN2AJQAA
+  </data>
+ </layer>
+</map>

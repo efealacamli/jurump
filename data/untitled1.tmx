@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="block" tilewidth="32" tileheight="32">
+  <image source="block.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="8" name="bonus" tilewidth="32" tileheight="32">
+  <image source="bonus.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="9" name="gate" tilewidth="32" tileheight="32">
+  <image source="gate.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="10" name="alien" tilewidth="32" tileheight="32">
+  <image source="alien.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="11" name="box" tilewidth="32" tileheight="32">
+  <image source="box.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="12" name="blocksaydam" tilewidth="32" tileheight="32">
+  <image source="block221.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="13" name="thumbsup" tilewidth="32" tileheight="32">
+  <image source="thumbsup.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="14" name="block_floor" tilewidth="32" tileheight="32">
+  <image source="block_floor.png" width="32" height="32"/>
+ </tileset>
+ <layer name="blocks" width="200" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2aaw/CIAxF52P6Rf3/P1f9YCRmyAq3ZY9zkiaOxJbhLS2bwwAAoOPwspODnSNvAsCJ48suDjZG3gSAE5/8uA5fbSs+kx+wBagfAHnID4A89FcAeagfAAAAAFpujuZF7TtN3lmClaj8aH1Pn2r7fWaqeW7AmWg/qPbQqPN5a5xR4Cv1YVm/Ndede+8JJHj9l6mk63SfLF3ndOv9fPfffOeMqfPD4sO77njqJrWoOCXNTv3WNeNz9dZzX4+K86vt1v7K4qO27lj6xSkdqK+j4qg1G6m3reRHpI+p75U0UhpT3I/VouJEa60US9Ff9ZzvnLGl5YdyffZWP9bYX0WePxR6UvRXLVpuNerHMmMtoX700pPi/OHZX22xfjwS886PXCxrfxUxZ8t854yNGV+1c7LWD/V6efgs2ROy97FngD4AAA==
+  </data>
+ </layer>
+ <layer name="boxes" width="200" height="20" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAao3nfFeAPgAA
+  </data>
+ </layer>
+ <layer name="aliens" width="200" height="20" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YKRaAMAxAwUqW+98XCyIC6EaYea+qJqI/oqXQyjJ6AB5ZTwe40gfE9AExfUBMHxDTB8T0kYP/4zb0AbGMfdil1JKxjz/ZRg/QwEz7TR/17S/vmceX+si4K+nr7htq1YcdCQAAAADQzwG2gxDegD4AAA==
+  </data>
+ </layer>
+ <layer name="bonuses" width="200" height="20" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UsQkAMAwDQZXZf+KM4MIQO3A3gYpHCQAAAAAA8NKZHgCAL+ZLVbe6ZkKnO80CAAAAAADAThfbCylHgD4AAA==
+  </data>
+ </layer>
+</map>
